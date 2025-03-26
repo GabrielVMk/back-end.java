@@ -5,9 +5,15 @@ public class aula01variaveis {
         //variavel lógica
 
         //tipo primitivo
-        boolean valorLogicoPrimitivo = true
+        boolean valorLogicoPrimitivo = true;
+        //exibir o valor
+        System.out.println(valorLogicoPrimitivo);
 
         //tipo abstrato
-        Boolean valorLogicoAbstrato = false
+        Boolean valorLogicoAbstrato = false;
+        //exibir com texto
+        System.out.println("O valor da variavel valorLogicoAbstrato é: " + valorLogicoAbstrato);
+        
+
     }
 }

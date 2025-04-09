@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Avaliação",
+            "request": "launch",
+            "mainClass": "com.mycompany.Avaliação",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "aula03operadores",
+            "request": "launch",
+            "mainClass": "com.mycompany.aula03operadores",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "aula01variaveis",
             "request": "launch",
             "mainClass": "com.mycompany.aula01variaveis",

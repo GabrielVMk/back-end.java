@@ -1,5 +1,7 @@
 package com.mycompany;
 
+import java.util.Scanner;
+
 public class Aula05Repetição {
     public static void main(String[] args) throws InterruptedException {
         /**
@@ -24,5 +26,17 @@ public class Aula05Repetição {
             System.out.println(i + "...");
         }
         System.out.println("Boom !!!");
+
+        /**
+         * Clase Scanner
+         * 
+         * É utilizado para ler valores do usuario inseridas pelo prompt.
+         */
+        Scanner scan = new Scanner(System.in); // Cria o scaner
+        System.out.println("Dijite um número: ");
+
+        int numero = scan.nextInt(); //le o valor dijitado e captrado pelo scanner
+        System.out.println("Você dijitou " + numero + " !!!");
+       
     }
 }

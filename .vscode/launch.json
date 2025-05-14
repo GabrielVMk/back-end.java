@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex03CalculoDeIMC",
+            "request": "launch",
+            "mainClass": "com.mycompany.Ex03CalculoDeIMC",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Aula06Condicional",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula06Condicional",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Ex02",
             "request": "launch",
             "mainClass": "com.mycompany.Ex02",

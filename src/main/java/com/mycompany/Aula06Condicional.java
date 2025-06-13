@@ -1,3 +1,5 @@
+package com.mycompany;
+
 public class Aula06Condicional {
     public static void main(String[] args) {
         /**

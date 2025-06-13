@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Recuperação",
+            "request": "launch",
+            "mainClass": "com.mycompany.Recuperação",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Aula08Funcoes",
             "request": "launch",
             "mainClass": "com.mycompany.Aula08Funcoes",

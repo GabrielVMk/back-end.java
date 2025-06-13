@@ -17,6 +17,7 @@ public class Aula07Estruturas {
          * último sendo n - 1, onde n é o número total de elementos
          * todo array tem um tipo associado
          */
+        
         System.out.println("-------- Array --------");
 
         int numeros[] = new int[5]; // Declara uma lista vazia de 5 posições [0, 1, 2, 3, 4]

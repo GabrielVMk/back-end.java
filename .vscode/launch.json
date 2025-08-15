@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "app",
+            "request": "launch",
+            "mainClass": "com.mycompany.avaliação_back_end.app",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "com.mycompany.poo.aula10.App",

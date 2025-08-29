@@ -1,6 +1,5 @@
 package com.mycompany.poo.aula10;
 
-import javax.print.DocFlavor.STRING;
 
 
 public class Pessoa {

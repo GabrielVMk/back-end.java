@@ -1,4 +1,4 @@
-package com.mycompany.poo.Aula11;
+package com.mycompany.poo.aula11;
 
 import com.mycompany.poo.aula10.Pessoa;
 

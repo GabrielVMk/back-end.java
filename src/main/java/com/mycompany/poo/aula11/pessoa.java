@@ -1,4 +1,4 @@
-package com.mycompany.poo.Aula11;
+package com.mycompany.poo.aula11;
 
 public class pessoa {
  /**

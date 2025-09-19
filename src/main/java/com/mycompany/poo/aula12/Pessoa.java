@@ -2,34 +2,71 @@ package com.mycompany.poo.aula12;
 
 public class Pessoa {
     /**
-     * Construções
+     * Construtores
      * 
      * Utilizamos o método construtor para inicializar nossas classes,
      * funcionando com uma configuração prévia da mesma.
      * 
-     * Toda classe quando é criada, possiu um método vazio que é chamado
-     * no momento que instanciamos a mesma.
+     * Toda classe quando é criada, possui um método construtor vazio
+     * que é chamado no momento que instanciamos a mesma.
      * 
-     * Uma mesma classe pode conter mais de um construtour,
-     * porém cada construtor deve possuir a quantidade de parâmetros
-     * diferentes. 
+     * Uma mesma classe pode conter mais de um construtor,
+     * porém cada construtor deve possuir quantidade 
+     * e tipos de parâmetros diferentes.
      */
-    
     private String nome;
-    private int idade; 
-    private double peso;
+    private int idade;
     private double altura;
+    private double peso;
 
-    //construtor padrao
-    //Todo método construtor possui o mesmo nome de classe
-    public Pessoa(){
-        System.out.println("Chamando o construtor padão");
+    // Construtor padrão
+    // Todo método construtor possui o mesmo nome da classe
+    public Pessoa() {
+        System.out.println("Chamando o construtor padrão");
     }
 
-    public Pessoa(String nome){
+    public Pessoa(String nome) {
         this.nome = nome;
         System.out.println("Chamando construtor 2");
+    }
 
+    public Pessoa(int idade) {
+        this.idade = idade;
+        System.out.println("Chamando construtor 3");
+    }
+
+    public Pessoa(double altura) {
+        this.altura = altura;
+        System.out.println("Chamando construtor 4");
+    }
+
+    // Não pode ter a mesma quantidade de parâmetros e tipos
+    // public Pessoa(double peso) {
+    //    this.peso = peso;
+    //}
+
+    public Pessoa(String nome, double altura) {
+        this.nome = nome;
+        this.altura = altura;
+        System.out.println("Chamando construtor 5");
+    }
+
+    /**
+     * Sobrecarga de Método
+     * 
+     * Sobrecarga é quando possuimos vários métodos com o mesmo nome,
+     * porem com diferenças quato a quantidade, tipos de parametros e retornos 
+     * 
+     * O meétodo construtor é um exemplo de sobredarga, quanto definimos 
+     * mais de uma implementação. 
+     * @return
+     */
+    public void conversar() {
+        System.out.println(this.nome + "está conversando sozinho");
+    }
+
+    public void conversar(String frase) {
+        System.out.println(this.nome + " está falando " + frase + " !!.");
     }
 
     public String getNome() {
@@ -48,14 +85,6 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    public double getPeso() {
-        return peso;
-    }
-
-    public void setPeso(double peso) {
-        this.peso = peso;
-    }
-
     public double getAltura() {
         return altura;
     }
@@ -64,5 +93,11 @@ public class Pessoa {
         this.altura = altura;
     }
 
-    
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
 }

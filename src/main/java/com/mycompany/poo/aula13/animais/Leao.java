@@ -1,14 +1,32 @@
 package com.mycompany.poo.aula13.animais;
 
 /**
- * Herdar uma classe
+ * Herdar de uma classe
  * 
- * Para herdar caracteristicas de outra classe usamos:
+ * Para herdar características de outra classe, utilizamos:
  * 
+ * extends [NOME DA CLASSE]
+ * 
+ * Só podemos herdar de uma única classe
  */
+public class Leao extends Animal {
 
-public class Leao extends animal {
     public Leao(String nome, double altura, double peso) {
+        /**
+         * super() referese a classe pai, no caso, Animal
+         * 
+         * chamará o construtor presente nela.
+         */
         super(nome, altura, peso);
+    }
+    /**
+     * cada classe precisa implementar o metodo abstrado seguindo
+     * suas particuliaridades
+     */
+
+    @Override
+    public void emitirSom() {
+        System.out.println("O leão esta rugindo");
+        
     }
 }
